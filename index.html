@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#about">Rim Chowdhury</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand active" href="#about">Rim Chowdhury</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#eduexp">Education & Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#background">Education & Experience</a></li>
                     <li class="nav-item"><a class="nav-link" href="#thesis">Thesis</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -34,17 +37,21 @@
         <div class="container p-5">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="../images/about_pic.jpg" alt="Your Name" class="img-fluid rounded-circle">
+                    <img src="images/rim.jpg" alt="Your Name" class="img-fluid rounded-circle">
                 </div>
                 <div class="col-md-8 my-auto text-white">
                     <h5>Hi! I'm Rim Chowdhury</h5>
                     <h6>Software Engineer in Samsung R&D Institute Bangladesh</h6>
-                    <p>I am an Android Developer. I</p>
+                    <p>I am an Android Developer. I have major interest in computer security and blockchain. I also love
+                        singing, playing carrom.</p>
+                    <a href="https://github.com/RimChy" class="icon-link" target="_blank"><i class="icon fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rim-chowdhury-49775a1a7/" target="_blank"><i class="icon fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:rim32chy@gmail.com"><i class="icon fa-solid fa-envelope"></i></a>
                 </div>
             </div>
         </div>
     </section>
-    
+
 
     <section id="background" class="py-5 bg-light">
         <div class="container">
@@ -59,13 +66,14 @@
                             <p class="m-0"><strong>Software Engineer</strong> | 2023 - Present</p>
                             <p class="">Android Developer, Wearable Experience Group</p>
                             <ul>
-                                <li>Worked on multiple wearable projects(Galaxy Smart Watch, Galaxy Fit3, Galaxy Smart Ring)</li>
+                                <li>Worked on multiple wearable projects(Galaxy Smart Watch, Galaxy Fit3, Galaxy Smart
+                                    Ring)</li>
                             </ul>
-                        
+
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Education Column -->
                 <div class="col-md-6">
                     <h3>Education</h3>
@@ -80,49 +88,213 @@
             </div>
         </div>
     </section>
-    
-    
+
+
 
     <section id="thesis" class="py-5">
         <div class="container">
             <h2 class="mb-4 text-center">Research Experience (Undergrate Thesis)</h2>
             <h4>Security Analysis of Software-Based Cryptocurrency Wallets.</h4>
-            <p><strong>Short Description: </strong>The goal of this thesis is to find the security vulnerabilities of cryptocurrency
+            <p><strong>Short Description: </strong>The goal of this thesis is to find the security vulnerabilities of
+                cryptocurrency
                 wallets as well as to get an overall idea about the privacy and permissions they ask from their users.
-                 Our methods focus on using vulnerability assessment tools and user reviews to identify the factors 
-                 that contribute to their perceived security and usability. Both manual and Machine Learning 
-                 approaches were taken to analyze the user reviews to determine how well they can keep cryptos safe 
-                 and accessible. This work is in the process of publishing. I was fortunate to work with <a href="https://scholar.google.com/citations?user=n3jMWFQAAAAJ&hl=en&oi=ao">Dr. Jabed 
-                 Morshed Chowdhury</a> and <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=DnQAee0AAAAJ&sortby=pubdate">Dr. Sadek Ferdous Ripul</a> as my thesis supervisors. This work is soon to be 
-                 submitted to the journal Cybersecurity published by SpringerOpen.</p>
+                Our methods focus on using vulnerability assessment tools and user reviews to identify the factors
+                that contribute to their perceived security and usability. Both manual and Machine Learning
+                approaches were taken to analyze the user reviews to determine how well they can keep cryptos safe
+                and accessible. This work is in the process of publishing. I was fortunate to work with <a
+                    href="https://scholar.google.com/citations?user=n3jMWFQAAAAJ&hl=en&oi=ao" target="_blank">Dr. Jabed
+                    Morshed Chowdhury</a> and <a
+                    href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=DnQAee0AAAAJ&sortby=pubdate" target="_blank">Dr.
+                    Sadek Ferdous Ripul</a> as my thesis supervisors. This work is soon to be
+                submitted to the journal Cybersecurity published by SpringerOpen.</p>
         </div>
     </section>
 
     <section id="projects" class="py-5 bg-light">
         <div class="container">
-            <h2 class="mb-4">Projects</h2>
-            <p>Details about your projects go here...</p>
+            <h2 class="mb-4 text-center">Projects</h2>
+            <div class="row">
+                <!-- Example Project Card -->
+                <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">COVID-19 Vaccine Supply Chain</h5>
+                            <p class="card-text">A blockchain project implementing a private blockchain-powered supply
+                                chain to establish end-to-end traceability for the COVID-19 vaccine, while guaranteeing
+                                secure distribution and transportation.</p>
+                            <p><strong>Tech Used:</strong> Hyperledger Fabric, Node.js, Apache CouchDB</p>
+                            <a href="https://github.com/Risvy/VSN-A-Hyperledger-Fabric-Project" class="btn btn-primary" target="_blank">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce & Bank</h5>
+                            <p class="card-text">API-based website to simulate the functionalities of e-commerce
+                                services among 3 different organizations i.e., Customer, Supplier, and a Bank for
+                                instant transactions.</p>
+                            <p><strong>Tech Used:</strong> Node.js, Express.js, MongoDB, PHP</p>
+                            <a href="https://github.com/RimChy/API-Project-Ecommerce-" class="btn btn-primary" target="_blank">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Text Summary</h5>
+                            <p class="card-text">A machine learning project that summarizes Bangla language using
+                                unsupervised learning where users can get both abstractive and extractive summaries of
+                                their input text.</p>
+                            <p><strong>Tech Used:</strong> Python, Machine Learning</p>
+                            <a href="https://github.com/Risvy/Bangla-Text-and-Document-Summarizer" class="btn btn-primary" target="_blank">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="skills" class="py-5">
         <div class="container">
-            <h2 class="mb-4">Skills</h2>
-            <p>Details about your skills go here...</p>
-        </div>
+            <h2 class="mb-4 text-center">Skills</h2>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Programming Languages -->
+                    <h4 class="mb-3 text-center">Programming Languages</h4>
+                    <div class="d-flex flex-wrap justify-content-center mb-4">
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/c_icon.svg" alt="C" class="skill-icon mb-2">
+                            <h5>C</h5>
+                        </div>
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/cpp_icon.svg" alt="C++" class="skill-icon mb-2">
+                            <h5>C++</h5>
+                        </div>
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/java_icon.svg" alt="Java" class="skill-icon mb-2">
+                            <h5>Java</h5>
+                        </div>
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/kotlin_icon.svg" alt="Kotlin" class="skill-icon mb-2">
+                            <h5>Kotlin</h5>
+                        </div>
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/python_icon.svg" alt="Python" class="skill-icon mb-2">
+                            <h5>Python</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="col-md-6">
+                    <h4 class="mb-3 text-center">Frameworks & Tools</h4>
+                    <div class="d-flex flex-wrap justify-content-center mb-4">
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/android_studio_icon.svg" alt="Android studio" class="skill-icon mb-2">
+                            <h5>Android Studio</h5>
+                        </div>
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/hf_icon.png" alt="Retrofit" class="skill-icon mb-2">
+                            <h5>Hyperledger Fabric</h5>
+                        </div>
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/git_icon.svg" alt="Git" class="skill-icon mb-2">
+                            <h5>Git</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Tools -->
+                    <h4 class="mb-3 text-center">Databases</h4>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/mysql_icon.svg" alt="Git" class="skill-icon mb-2">
+                            <h5>MySQL</h5>
+                        </div>
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/couchdb_icon.svg" alt="Room Database" class="skill-icon mb-2">
+                            <h5>Apache CouchDB</h5>
+                        </div>
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/mongodb_icon.svg" alt="Docker" class="skill-icon mb-2">
+                            <h5>MongoDB</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="mb-3 text-center">Web Technologies</h4>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/html_icon.svg" alt="html" class="skill-icon mb-2">
+                            <h5>HTML</h5>
+                        </div>
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/nodejs_icon.svg" alt="nodejs" class="skill-icon mb-2">
+                            <h5>NodeJS</h5>
+                        </div>
+                        <div class="skill-item text-center mx-2">
+                            <img src="images/php_icon.svg" alt="php" class="skill-icon mb-2">
+                            <h5>PHP</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
+
+
+
+
+
+
+
 
     <section id="achievements" class="py-5 bg-light">
         <div class="container">
-            <h2 class="mb-4">Achievements</h2>
-            <p>Details about your achievements go here...</p>
+            <h2 class="mb-4 text-center">Achievements</h2>
+            <div class="row p-3">
+                <h4 class="text-center mb-3">Finalist | Bangladesh Blockchain Olympiad 2022</h4>
+                <div class="col-md-6">
+                    <img src="images/blockchain.jpg" alt="Rim" class="ach-img img-fluid">
+                </div>
+                <div class="col-md-6 my-auto">
+                    <p>Me and my team developed a Blockchain application that can be used in global pandemics to respond
+                        quickly</p>
+                    <h6>Covered News</h6>
+                    <p><a
+                            href="https://www.tbsnews.net/features/pursuit/blockchain-olympiad-bangladesh-2022-improving-vaccination-identifying-refugees" target="_blank">The
+                            Business Standard News</a></p>
+                    <p><a href="https://www.youtube.com/watch?v=PWY3rDYdUEs&t=258s" target="_blank">Video coverage of BBC Bangla
+                            News</a></p>
+                    <p><a href="https://www.youtube.com/watch?v=7QOHUxPg6kI&t=660s" target="_blank">The Whole Project Ellaboration
+                        </a></p>
+                </div>
+            </div>
         </div>
     </section>
 
+
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
-    <script src="../js/script.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        const currentLocation = window.location.pathname;
+
+// Loop through navbar links and set 'active' class
+const navLinks = document.querySelectorAll('.nav-link');
+navLinks.forEach(link => {
+    if (link.href.includes(currentLocation)) {
+        link.classList.add('active');
+    } else {
+        link.classList.remove('active');
+    }
+});
+    </script>
 </body>
+
 </html>
