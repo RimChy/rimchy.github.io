@@ -30,3 +30,51 @@
     left: -6px;
     top: 0;
 }
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+/* Skills Section */
+#skills h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #333;
+}
+
+.skill-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect */
+.skill-icon:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.icon {
+   font-size: 30px;
+   margin: 5px;
+   color:white
+}
+.nav-link.active {
+    color: white 
+}
+.icon-link {
+    text-decoration: none;
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .skill-icon {
+        width: 60px;
+        height: 60px;
+    }
+    #skills h5 {
+        font-size: 1rem;
+    }
+}
+
